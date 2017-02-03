@@ -10,7 +10,7 @@ Grocery List using Firebase.
 ```
 API_KEY="<YOUR API KEY>"
 ```
-- Change the FirebaseClient with your URL
+- Change the [FirebaseClient](/src/FirebaseClient.js) with your URL
 
 
 ### About DailyDrip
