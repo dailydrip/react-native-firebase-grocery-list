@@ -21,16 +21,16 @@ class AddGrocery extends Component {
   }
 
   addGrocery(){
+    if(this.state.grocery != ''){
+      FirebaseClient.database().ref('/items').push({
+        name: this.state.grocery
+      })
 
-    FirebaseClient.database().ref('/items').push({
-      name: this.state.grocery
-    })
-
-    this.setState({grocery: '', added: 'Added!'})
+      this.setState({grocery: '', added: 'Added!'})
+    }
   }
 
   render() {
-
     return (
       <View style={{marginTop: 22}}>
         <FormLabel labelStyle={{fontSize: 22}}>Grocery</FormLabel>
