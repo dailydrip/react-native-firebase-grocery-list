@@ -2,6 +2,9 @@
 
 Grocery List using Firebase.
 
+![](grocery_list.gif)
+
+
 ## Set up
 
 - Create your firebase application
