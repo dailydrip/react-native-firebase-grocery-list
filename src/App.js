@@ -31,7 +31,7 @@ class App extends Component {
     header: ({ state, setParams, navigate }) => ({
       right: (
         <Button
-          title={'ADD'}
+          title="ADD"
           onPress={() => navigate('Add')}
         />
       ),

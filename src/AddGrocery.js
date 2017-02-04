@@ -33,8 +33,8 @@ class AddGrocery extends Component {
   render() {
     return (
       <View style={{marginTop: 22}}>
-        <FormLabel labelStyle={{fontSize: 22}}>Grocery</FormLabel>
-        <FormInput value={this.state.grocery} onChangeText={this.updateGroceryText} inputStyle={{fontSize: 28, marginTop: 10}} />
+        <FormLabel labelStyle={{fontSize: 22, marginBottom: 10}}>Grocery</FormLabel>
+        <FormInput value={this.state.grocery} onChangeText={this.updateGroceryText} inputStyle={{height: 60, fontSize: 28}} />
 
         <Button
           buttonStyle={{marginTop: 30}}
